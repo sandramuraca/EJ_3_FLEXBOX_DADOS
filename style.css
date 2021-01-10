@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(211, 211, 211);
+}
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+}
+
+.dado{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.point{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.dado1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.dado2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dado3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.up3, .center3, .down3{
+    background-color: aliceblue;
+}
+
+.up3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.down3{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+
+
+.dado4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.up, .down{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+.dado5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.dado6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left, .rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+
